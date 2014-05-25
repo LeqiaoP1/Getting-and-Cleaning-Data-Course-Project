@@ -18,6 +18,6 @@
   
 ### Calculate the mean value of interested features and output the final result
   1. using "melt" on the combination of "activity_names" and "subject_id". The tempory "data_melt" is generated.
-  2. using "dcast" on the "data_melt" with function "mean" the key pair (activity_name + subject_id)
+  2. using "dcast" on the "data_melt" with function "mean" and the pivot variables (activity_name + subject_id)
    
 ### Finally, "write.table" to output the "tidy_movement_data.txt"
